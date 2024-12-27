@@ -1,0 +1,182 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "NestJS",
+  "include": "./base.json",
+  "colors": {
+    "editor.foreground": "#F7F7F7",
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "meta.brace",
+        "punctuation.definition.block",
+        "punctuation.definition.parameters",
+        "punctuation.definition.tag",
+        "punctuation.section",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#B4B4B4"
+      }
+    },
+    {
+      "scope": [
+        "markup.changed",
+        "markup.heading",
+        "markup.underline.link",
+        "meta.diff.header",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        // HTML/XML Tags
+        "entity.name.tag.html",
+        "text.xml entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#4FC1FF"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+        //
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#FFE7BD"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#FFF3DE"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.at-rule",
+        "keyword.operator.logical.and.media",
+        "keyword.operator.logical.not.media",
+        "keyword.operator.logical.only.media"
+      ],
+      "settings": {
+        "foreground": "#A38ECC"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "meta.preprocessor.string",
+        //
+        "string",
+        "string.regexp constant",
+        "string.regexp constant.other",
+        "string.regexp keyword",
+        "string.regexp keyword.operator",
+        "string.regexp punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#FFC093"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "entity.name.tag",
+        "entity.other.keyframe-offset",
+        // Type brackets <>
+        "cast.expr meta.brace.angle",
+        "punctuation.definition.typeparameters",
+        // Operators coloring
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.bitwise",
+        "keyword.operator.comparison",
+        "keyword.operator.decrement",
+        "keyword.operator.increment",
+        "keyword.operator.logical",
+        "keyword.operator.optional",
+        "keyword.operator.relational",
+        "keyword.operator.rest",
+        "keyword.operator.spread",
+        "keyword.operator.ternary",
+        "keyword.operator.type",
+        "storage.type.function.arrow",
+        "punctuation.definition.template-expression",
+        // Object property coloring
+        "variable.other.object.property",
+        "variable.other.object",
+        // Function coloring
+        "entity.name.function",
+        "punctuation.decorator",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#FFDA98"
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted",
+        "meta.preprocessor.numeric",
+        "punctuation.definition.quote.begin.markdown",
+        //
+        "constant",
+        "storage.type.numeric"
+      ],
+      "settings": {
+        "foreground": "#A1F7B5"
+      }
+    },
+    {
+      "scope": [
+        "meta.embedded",
+        // CSS
+        "constant.numeric.css",
+        "keyword.other.unit",
+        "meta.property-value constant.other",
+        // TS Types
+        "meta.definition.function entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.type.annotation storage.type.function.arrow",
+        // Parameters
+        "meta.parameters entity.name.function",
+        "meta.parameters variable.language",
+        "variable.parameters",
+        //
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#F7F7F7"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "support.constant.media",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        // HTML/XML
+        "entity.other.attribute-name",
+        // SCSS
+        "meta.definition.variable variable.scss",
+        //
+        "keyword",
+        "keyword.operator.expression",
+        "keyword.operator.new",
+        "storage",
+        "support.type.object.module",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#93D7F1"
+      }
+    }
+  ]
+}

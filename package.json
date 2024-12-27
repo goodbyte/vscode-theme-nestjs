@@ -1,0 +1,48 @@
+{
+  "name": "uy-nestjs-theme",
+  "displayName": "NestJS Color Theme",
+  "description": "NestJS Color Theme",
+  "publisher": "goodbyte",
+  "license": "MIT",
+  "author": {
+    "name": "José Guerra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodbyte/vscode-theme-nestjs"
+  },
+  "bugs": {
+    "url": "https://github.com/goodbyte/vscode-theme-nestjs/issues"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "icon": "images/logo_250x250.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "goodbyte",
+    "Uruguay",
+    "Dark",
+    "Modern",
+    "NestJS",
+    "Javascript",
+    "Typescript"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NestJS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "NestJS Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/modern.json"
+      }
+    ]
+  }
+}
