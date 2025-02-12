@@ -42,8 +42,6 @@
         // CSS
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.id",
-        //
-        "support.class.component"
       ],
       "settings": {
         "foreground": "#FFE7BD"
@@ -66,7 +64,7 @@
         "keyword.operator.logical.only.media"
       ],
       "settings": {
-        "foreground": "#A38ECC"
+        "foreground": "#C899FF"
       }
     },
     {
